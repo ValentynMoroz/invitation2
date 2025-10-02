@@ -1,5 +1,4 @@
 import TypingText from "../components/typingText";
-import { useParallax } from "../features/hooks/useParallax";
 
 function HomePage() {
   return (
@@ -7,37 +6,29 @@ function HomePage() {
       <section
         className="sticky top-0 min-h-[75vh] pb-10 mx-auto max-w-[450px] pt-[35%]   bg-[#132c1c]  bg-cover  bg-center overflow-hidden  
 ">
-        <div className="absolute top-0 left-0 w-full h-full bg-[url('/photo/1.jpg')] bg-cover bg-center z-0 h-10" />
+        <div className="absolute top-0 left-0 w-full h-full bg-[url('/invitation2/photo/1.jpg')] bg-cover bg-center z-0 " />
 
-        {/* <div className="relative z-20 px-4 text-center"> */}
         <TypingText text={"Сергій\nВікторія"} />
-        {/* </div> */}
-        {/* </div> */}
       </section>
 
-      {/* Секція 2: Звичайний контент */}
       <section
         className="py-10 relative max-w-[450px] mx-auto bg-[#132c1c] text-[#F7F3E8] font-sans text-center
  
 ">
         {" "}
-        {/* <div ref={imgRef} className="h-[190px]"></div> */}
         <img
-          // ref={imgRef}
-          src="/photo/flowers-bg.png"
+          src="/invitation2/photo/flowers-bg.png"
           alt=""
           className={` 
            
            sticky top-[0px] translate-y-[-120px]  left-0 w-full z-30 pointer-events-none`}
         />
         <img
-          src="/photo/flowers-bg.png"
+          src="/invitation2/photo/flowers-bg.png"
           alt=""
           className={` absolute top-[-80px]  left-0 w-full z-20 pointer-events-none`}
         />
         <div className="px-5 mt-[-110px]">
-          {/* <div className="sticky h-[500px] top-0"> */}
-          {/* </div> */}
           <h2 className="text-4xl mb-4 text-[#F7F3E8] mt-10 font-greatVibes">Дорогі рідні та близькі</h2>
           <p className="mb-2"> Ми щасливі повідомити вас про найголовнішу подію в нашому житті - наше весілля.</p>
           <p className="mb-8"> Для нас буде величезним подарунком, якщо ви зможете розділити цей день разом з нами!</p>
@@ -63,12 +54,12 @@ function HomePage() {
 
         <div className="relative px-2 text-center mx-auto max-w-[450px] overflow-hidden ">
           <img
-            src="/photo/flowers-bg.png"
+            src="/invitation2/photo/flowers-bg.png"
             alt=""
             className="w-[200px] absolute top-[80px]  left-[-80px]  z-20 rotate-90"
           />
           <img
-            src="/photo/flowers-bg.png"
+            src="/invitation2/photo/flowers-bg.png"
             alt=""
             className="w-[200px] absolute bottom-[140px]  right-[-80px]  z-20 rotate-270"
           />
@@ -131,14 +122,14 @@ function HomePage() {
       </section>
       <section className="relative mx-auto max-w-[450px] text-[#F7F3E8]  bg-[#132c1c]  ">
         <div className="  text-center ">
-          <div className=" relative bg-[url('/photo/bg_location.jpeg')] h-80 bg-cover bg-[center_bottom_-70px]  pt-22 after:w-full after:h-full after:bg-black after:content-[''] after:absolute after:inset-0 after:opacity-20 ">
+          <div className=" relative bg-[url('/invitation2/photo/bg_location.jpeg')] h-80 bg-cover bg-[center_bottom_-70px]  pt-22 after:w-full after:h-full after:bg-black after:content-[''] after:absolute after:inset-0 after:opacity-20 ">
             <div className="relative  z-10">
               <h2 className="font-greatVibes text-6xl z-10 ">Dress code</h2>
               <p>Зовнішній вигляд</p>
               <p>Ми будемо вдячні, якщо Ви дотримаєтеся кольорової гами</p>
             </div>
           </div>
-          <div className=" mt-10 relative z-20  h-80 bg-[url('/photo/bg-house.png')] bg-cover after:content-[''] after:absolute after:inset-0 after:bg-black after:opacity-40 ">
+          <div className=" mt-10 relative z-20  h-80 bg-[url('/invitation2/photo/bg-house.png')] bg-cover after:content-[''] after:absolute after:inset-0 after:bg-black after:opacity-40 ">
             {/* <div className="absolute inset-0 bg-black opacity-40"></div> */}
             <svg
               className="mx-auto w-full absolute z-10 top-[-75px] after:w-full after:h-full after:bg-black after:content-[''] after:absolute after:inset-0 after:opacity-40"
@@ -192,7 +183,7 @@ function HomePage() {
       <section className="pb-10  pt-44 mx-auto max-w-[450px] text-center relative bg-[#132c1c] text-[#F5F0E8] ">
         <div className=" px-2 ">
           <img
-            src="/photo/flowers-bg.png"
+            src="/invitation2/photo/flowers-bg.png"
             alt=""
             className="absolute top-[-40px]  left-0 w-full z-20 pointer-events-none scale-y-[-1]"
           />
@@ -219,7 +210,7 @@ function HomePage() {
       </section>
       <section className=" bg-[#132c1c] mx-auto mt-[-1px] max-w-[450px] overflow-hidden">
         <div className="relative  h-32  ">
-          <img className=" absolute" src="/public/photo/flowers-bg.png" alt="" />
+          <img className=" absolute" src="/invitation2/photo/flowers-bg.png" alt="" />
         </div>
       </section>
     </>
